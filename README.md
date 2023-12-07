@@ -64,3 +64,50 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Projet salle de sport
+
+Ce projet est TD pour la formation DevWeb du CNAM.
+
+## Prérequis
+
+- Apache 2.4.54
+- MariaDB 10.10.2
+- PHP 8.0.26
+- Composer 2.6.5
+- NodeJS et NPM 10.2.3
+
+## Insallation
+composer install
+npm install
+## Utilisation
+
+Dans le terminal :
+```
+
+php artisan serve
+```
+
+Aller sur la page [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+npm run dev (autre terminal)
+## Recommandations
+
+### Tailles des images d'ambiancce
+
+La taille recommandées est :
+
+- Largeur 1024
+- Hauteur : 786
+
+Il vaut mieux utiliser des fichiers JPEG car ils sont plus légers.
+
+## Mentions légales
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure enim dolorem cupiditate, error dicta, voluptate id accusamus labore illum possimus, aperiam qui? Sapiente, asperiores laboriosam ullam repellat voluptates perferendis tempore.
+### Licence du projet
+
+? @TODO
+
+### Droits d'auteur 
+
+Toutes les photos du site on étét réalisée par ...
