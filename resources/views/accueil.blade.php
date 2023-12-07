@@ -2,6 +2,6 @@
 @section('title', 'Accueil')
 @section('content')
 <h2>Acceuil</h2>
-<img src="img/" alt="téléchargé.jpeg">
-<img src="img/" alt="téléchargé(1).jpeg">
+<img src="img/téléchargé.jpeg" alt="">
+<img src="img/téléchargé(1).jpeg" alt="">
 @endsection
