@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [MainController::class, 'accueil'])->name('main.accueil');
+Route::get('/', [MainController::class, 'AccueilController'])->name('main.accueil');
 
-Route::get('/cours',[MainController::class, 'cours'])->name('main.cours');
+Route::get('/cours',[MainController::class, 'CoursController'])->name('main.cours');
 
-Route::get('/tarif', [MainController::class, 'tarif'])->name('main.tarif');
+Route::get('/tarif', [MainController::class, 'TarifController'])->name('main.tarif');
 
-Route::get('/contact', [MainController::class, 'contact'])->name('main.contact');
+Route::get('/contact', [MainController::class, 'ContactController'])->name('main.contact');
 
-Route::get('/mentions-legales',[MainController::class, 'mentions-legales'])->name('main.mentions-legales');
+Route::get('/mentions-legales',[MainController::class, 'MentionsLegalesController'])->name('main.mentions-legales');
