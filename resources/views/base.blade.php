@@ -13,7 +13,7 @@
         <div>
             <nav>
                 <a href="{{ route('main.accueil')}}">Accueil</a>
-                <a href="{{ route('main.cours')}}">Menu</a>
+                <a href="{{ route('main.cours')}}">Cours</a>
                 <a href="{{ route('main.tarif')}}">Tarif</a>
                 <a href="{{ route('main.contact')}}">Contact</a>
                 <a href="{{ route('main.mentions-legales')}}">Mentions-Legales</a>
